@@ -55,10 +55,10 @@ function NavTabs() {
       </div>
       <div className="nav-item">
         <Link
-          to="LoginPage"
-          className={currentPage === '/LoginPage' ? 'nav-link active' : 'nav-link'}
+          to="entrance"
+          className={currentPage === '/entrance' ? 'nav-link active' : 'nav-link'}
         >
-         LoginPage
+         entrance
         </Link>
       </div>
       <div className="nav-item">

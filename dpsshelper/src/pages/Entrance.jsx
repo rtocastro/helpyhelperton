@@ -1,10 +1,15 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
+import Footer from '../components/Footer'
 
+import jhlogo from '../assets/jhlogo.png'
 
 export default function Entrance() {
   return (
     <>
-      <h2>THIS IS THE ENTRANCE PAGE</h2>
+     <Link to='./MainPage'><img src={jhlogo} /></Link>
+      <h2>CLICK IMAGE TO GET STARTED</h2>
+      <Footer />
  
     </>
   )

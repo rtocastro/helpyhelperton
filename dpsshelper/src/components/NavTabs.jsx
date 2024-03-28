@@ -15,58 +15,34 @@ function NavTabs() {
       </div>
       <div className="nav-item">
         <Link
-          to="/SignLogin"
-          className={currentPage === '/SignLogin' ? 'nav-link active' : 'nav-link'}
+          to="/CalFresh"
+          className={currentPage === '/CalFresh' ? 'nav-link active' : 'nav-link'}
         >
-          Sign Login
+          Cal Fresh
         </Link>
       </div>
       <div className="nav-item">
         <Link
-          to="/ViewCreate"
-          className={currentPage === '/ViewCreate' ? 'nav-link active' : 'nav-link'}
+          to="/CalWorks"
+          className={currentPage === '/CalWorks' ? 'nav-link active' : 'nav-link'}
         >
-          View Create
+          Cal Works
         </Link>
       </div>
       <div className="nav-item">
         <Link
-          to="/Feeder"
-          className={currentPage === '/Feeder' ? 'nav-link active' : 'nav-link'}
+          to="/GeneralRelief"
+          className={currentPage === '/GeneralRelief' ? 'nav-link active' : 'nav-link'}
         >
-          Feeder
+          General Relief
         </Link>
       </div>
       <div className="nav-item">
         <Link
-          to="Create"
-          className={currentPage === '/Create' ? 'nav-link active' : 'nav-link'}
+          to="/Medical"
+          className={currentPage === '/Medical' ? 'nav-link active' : 'nav-link'}
         >
-          Create
-        </Link>
-      </div>
-      <div className="nav-item">
-        <Link
-          to="CreateProfile"
-          className={currentPage === '/CreateProfile' ? 'nav-link active' : 'nav-link'}
-        >
-         Create Profile
-        </Link>
-      </div>
-      <div className="nav-item">
-        <Link
-          to="entrance"
-          className={currentPage === '/entrance' ? 'nav-link active' : 'nav-link'}
-        >
-         entrance
-        </Link>
-      </div>
-      <div className="nav-item">
-        <Link
-          to="Devs"
-          className={currentPage === '/Devs' ? 'nav-link active' : 'nav-link'}
-        >
-         LoginPage
+          Medical
         </Link>
       </div>
     </div>

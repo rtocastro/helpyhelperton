@@ -7,6 +7,10 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 import Entrance from './pages/Entrance.jsx';
 import MainPage from './pages/MainPage.jsx';
+import CalFresh from './pages/CalFresh.jsx';
+import CalWorks from './pages/CalWorks.jsx';
+import GeneralRelief from './pages/GeneralRelief.jsx';
+import Medical from './pages/Medical.jsx';
 
 const router = createBrowserRouter([
   {
@@ -21,6 +25,22 @@ const router = createBrowserRouter([
       {
         path: '/mainpage',
         element: <MainPage />,
+      },
+      {
+        path: '/CalFresh',
+        element: <CalFresh />,
+      },
+      {
+        path: '/CalWorks',
+        element: <CalWorks />,
+      },
+      {
+        path: '/GeneralRelief',
+        element: <GeneralRelief />,
+      },
+      {
+        path: '/Medical',
+        element: <Medical />,
       },
     ],
   },

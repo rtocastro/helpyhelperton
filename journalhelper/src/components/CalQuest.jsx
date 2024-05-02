@@ -47,8 +47,8 @@ function CalQuest() {
 
       {submitted && (
         <div>
-          <p>Hello Participant {name} called for {program}</p>
-          <p>Stated that {statement} and they're trying to {accomplishment}</p>
+          <p>PT authenticated and informed of BenefitsCal.com website.PT {name} called in regards to {program}program</p>
+          <p>PT stated that {statement} and they're trying to {accomplishment}</p>
           <p>{disposition}</p>
         </div>
       )}

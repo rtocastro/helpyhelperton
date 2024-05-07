@@ -28,12 +28,12 @@ function CalQuest() {
         </label>
         <br />
         <label>
-          Statement:
+          What is the person stating:
           <input type="text" value={statement} onChange={(e) => setStatement(e.target.value)} />
         </label>
         <br />
         <label>
-          What are they trying to accomplish:
+          What are we trying to do with them:
           <input type="text" value={accomplishment} onChange={(e) => setAccomplishment(e.target.value)} />
         </label>
         <br />
@@ -47,8 +47,10 @@ function CalQuest() {
 
       {submitted && (
         <div>
-          <p>PT authenticated and informed of BenefitsCal.com website.PT {name} called in regards to {program}program</p>
-          <p>PT stated that {statement} and they're trying to {accomplishment}</p>
+          <p>PT authenticated and informed of BenefitsCal.com website.</p>
+          PT {name} called in regards to {program} program
+          PT {name} stated that {statement} and they're trying to {accomplishment}
+          Best # to reach PT
           <p>{disposition}</p>
         </div>
       )}

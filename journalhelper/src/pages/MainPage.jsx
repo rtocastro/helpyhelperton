@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 import NavTabs from '../components/NavTabs';
 import Footer from '../components/Footer'
-import CalFresh from './CalFresh';
+import helper from './helper';
 
 export default function MainPage() {
   return (

@@ -7,7 +7,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 import Entrance from './pages/Entrance.jsx';
 import MainPage from './pages/MainPage.jsx';
-import CalFresh from './pages/CalFresh.jsx';
+import helper from './pages/helper.jsx';
 import CalWorks from './pages/CalWorks.jsx';
 import GeneralRelief from './pages/GeneralRelief.jsx';
 import Medical from './pages/Medical.jsx';

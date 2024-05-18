@@ -27,8 +27,8 @@ const router = createBrowserRouter([
         element: <MainPage />,
       },
       {
-        path: '/CalFresh',
-        element: <CalFresh />,
+        path: '/helper',
+        element: <helper />,
       },
       {
         path: '/CalWorks',

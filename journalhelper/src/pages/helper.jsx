@@ -1,8 +1,8 @@
 import React from 'react';
 //import DropDownCF from '../components/DropDownCF';
-import helper from '../components/CalQuest'
+import CalQuest from '../components/CalQuest'
 
-export default function CalFresh() {
+export default function helper() {
   return (
     <>
      <h2>Cal-Fresh page</h2>

@@ -15,11 +15,20 @@ function NavTabs() {
       </div>
       <div className="nav-item">
         <Link
-          to="/helper"
-          className={currentPage === '/helper' ? 'nav-link active' : 'nav-link'}
+          to="/Helper"
+          className={currentPage === '/Helper' ? 'nav-link active' : 'nav-link'}
         >
-         Helper
+          Helper
         </Link>
+        <div className="nav-item">
+
+          <Link
+            to="/AskAI"
+            className={currentPage === '/AskAI' ? 'nav-link active' : 'nav-link'}
+          >
+            Ask AI
+          </Link>
+        </div>
       </div>
     </div>
   );

@@ -7,10 +7,9 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 import Entrance from './pages/Entrance.jsx';
 import MainPage from './pages/MainPage.jsx';
-import helper from './pages/helper.jsx';
-import CalWorks from './pages/CalWorks.jsx';
-import GeneralRelief from './pages/GeneralRelief.jsx';
-import Medical from './pages/Medical.jsx';
+import Helper from './pages/Helper.jsx';
+import AskAI from './pages/AskAI.jsx';
+
 
 const router = createBrowserRouter([
   {
@@ -27,20 +26,12 @@ const router = createBrowserRouter([
         element: <MainPage />,
       },
       {
-        path: '/helper',
-        element: <helper />,
+        path: '/Helper',
+        element: <Helper />,
       },
       {
-        path: '/CalWorks',
-        element: <CalWorks />,
-      },
-      {
-        path: '/GeneralRelief',
-        element: <GeneralRelief />,
-      },
-      {
-        path: '/Medical',
-        element: <Medical />,
+        path: '/AskAI',
+        element: <AskAI />,
       },
     ],
   },

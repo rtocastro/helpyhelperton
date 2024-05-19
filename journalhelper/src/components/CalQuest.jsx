@@ -24,7 +24,7 @@ function CalQuest() {
         <br />
         <label>
           Program:
-          <input type="text" placeholder="Cal-Fresh" value={program} onChange={(e) => setProgram(e.target.value)} />
+          <input type="text" placeholder="CF/CW/GR/MC" value={program} onChange={(e) => setProgram(e.target.value)} />
         </label>
         <br />
         <label>

@@ -1,6 +1,5 @@
 // src/PromptComponent.js
 import React, { useState } from 'react';
-require('dotenv').config();
 
 function PromptComponent() {
     

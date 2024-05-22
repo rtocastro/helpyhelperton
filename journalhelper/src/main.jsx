@@ -7,7 +7,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 import Entrance from './pages/Entrance.jsx';
 import MainPage from './pages/MainPage.jsx';
-import Helper from './pages/Helper.jsx';
+import Helper from './pages/Helper.jsx ';
 import AskAI from './pages/AskAI.jsx';
 
 

@@ -7,8 +7,8 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 import Entrance from './pages/Entrance.jsx';
 import MainPage from './pages/MainPage.jsx';
-import AskAI from './pages/AskAI.jsx';
 import Helper from './pages/Helper.jsx';
+import AskAI from './pages/AskAI.jsx';
 
 
 const router = createBrowserRouter([
@@ -26,8 +26,8 @@ const router = createBrowserRouter([
         element: <MainPage />,
       },
       {
-        path: '/Helper',
-        element: <Helper />,
+        path: '/<Helper></Helper>',
+        element: <<Helper></Helper> />,
       },
       {
         path: '/AskAI',

@@ -26,8 +26,8 @@ const router = createBrowserRouter([
         element: <MainPage />,
       },
       {
-        path: '/<Helper></Helper>',
-        element: <<Helper></Helper> />,
+        path: '/Helper',
+        element: <Helper />,
       },
       {
         path: '/AskAI',

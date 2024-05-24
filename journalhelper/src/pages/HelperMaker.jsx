@@ -3,7 +3,7 @@ import React from 'react';
 //import DropDownCF from '../components/DropDownCF';
 import CalQuest from '../components/CalQuest'
 
-function Helper(){
+function HelperMaker(){
   return (
     <>
       <h2>Create a journal entry</h2>
@@ -12,4 +12,4 @@ function Helper(){
   )
 }
 
-export default Helper;
+export default HelperMaker;

@@ -15,7 +15,7 @@ function NavTabs() {
       </div>
       <div className="nav-item">
         <Link
-          to="/Helper"
+          to="/HelperMaker"
           className={currentPage === '/Helper' ? 'nav-link active' : 'nav-link'}
         >
           Helper

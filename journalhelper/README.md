@@ -15,6 +15,8 @@ This application is for making logbook/journal entries specifically for working 
 
 No need to install. As long as you have a browswer running the latest updates.
 
+Deployed Application URL: https://helpyhelperton.onrender.com/
+
 ## Usage
 
 Click on the image to enter the logbook assistant/journal helper. 
